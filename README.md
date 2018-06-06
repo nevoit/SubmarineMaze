@@ -4,6 +4,6 @@ We implemented in Java (8) a maze game, while the GUI was written with XML in Ja
 
 # GUI
 
-[[https://github.com/nevoit/SubmarineMaze/blob/master/resources/Images/GUI.PNG?raw=true|alt=gui_image]]
+[[https://github.com/nevoit/SubmarineMaze/blob/master/resources/Images/GUI.PNG|alt=gui_image]]
 
-[[https://github.com/nevoit/SubmarineMaze/blob/master/resources/Images/gui2.PNG?raw=true|alt=gui_image]]
+[[https://github.com/nevoit/SubmarineMaze/blob/master/resources/Images/gui2.PNG|alt=gui_image]]
