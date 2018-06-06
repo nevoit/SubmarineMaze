@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="pane" prefHeight="320.0" prefWidth="310.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.ObjectiveController">
+    <children>
+        <TextArea editable="false" layoutX="6.0" layoutY="37.0" prefHeight="271.0" prefWidth="299.0" style="-fx-background-color: transparent;" text="The goal of the game is to guide your torpedo towards the enemies submarine.&#10;You can increase the difficulty on the left, and save your maze for later use if you want to." wrapText="true" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="36.0">
+            <font>
+                <Font name="Bookman Old Style Bold" size="21.0" />
+            </font>
+        </TextArea>
+        <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="6.0" prefHeight="38.0" prefWidth="367.0" style="-fx-background-color: transparent;" text="OBJECTIVE" underline="true" wrapText="true" AnchorPane.bottomAnchor="287.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
+            <font>
+                <Font name="Berlin Sans FB" size="24.0" />
+            </font>
+        </Label>
+    </children>
+    <padding>
+        <Insets top="1.0" />
+    </padding>
+</AnchorPane>

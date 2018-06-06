@@ -1,0 +1,36 @@
+.root{
+    -fx-background-image: url("../resources/Images/controls.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-font-family: "BN Machine";
+}
+@font-face {
+    src: url("../resources/Fonts/BNMachine.ttf");
+}
+
+.label{ /* Controls the title and column names*/
+    -fx-text-fill: #f8fff1;
+    -fx-font-family: "BN Machine";
+    -fx-font-size: 38;
+    -fx-background-color: rgba(51, 49, 52, 0);
+}
+
+.table-view .label{
+    -fx-text-fill: #03908e;
+    -fx-font-size: 20px;
+    -fx-background-color: rgba(252, 252, 252, 0);
+    -fx-font-family: "BN Machine";
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #111111;
+    -fx-background-color: rgba(176, 176, 176, 0);
+    -fx-text-alignment: center;
+    -fx-font-size: 15px;
+    -fx-text-alignment: center;
+    -fx-font-family: "BN Machine";
+}
+
+
+
+

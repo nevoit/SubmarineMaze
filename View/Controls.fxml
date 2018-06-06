@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import View.ButtonAndEffect?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.ControlsController">
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="163.0" prefHeight="81.0" prefWidth="274.0" text="GAME CONTROLS" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <TableView layoutX="135.0" layoutY="71.0" opacity="0.8" prefHeight="353.0" prefWidth="309.0">
+            <columns>
+                <TableColumn editable="false" prefWidth="91.0" text="Button">
+                    <cellValueFactory><PropertyValueFactory property="Button" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="49.0" text="Effect">
+                    <cellValueFactory><PropertyValueFactory property="Effect" />
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <ButtonAndEffect button="←" effect="Left" />
+                    <ButtonAndEffect button="→" effect="Right" />
+                    <ButtonAndEffect button="↑" effect="Up" />
+                    <ButtonAndEffect button="↓" effect="Down" />
+                    <ButtonAndEffect button="q" effect="Up+left" />
+                    <ButtonAndEffect button="e" effect="Up+right" />
+                    <ButtonAndEffect button="a" effect="Left" />
+                    <ButtonAndEffect button="d" effect="Right" />
+                    <ButtonAndEffect button="w" effect="Up" />
+                    <ButtonAndEffect button="s" effect="Down" />
+                    <ButtonAndEffect button="Ctrl + Mouse wheel" effect="Zoom in/out" />
+                    <ButtonAndEffect button="Mouse drag" effect="ALL" />
+                </FXCollections>
+            </items>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+    </children>
+</AnchorPane>

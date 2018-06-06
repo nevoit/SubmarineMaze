@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="102.0" prefWidth="206.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.ConfirmBoxController">
+   <children>
+      <Label fx:id="label_Message" alignment="CENTER" layoutX="37.0" layoutY="8.0" prefHeight="45.0" prefWidth="129.0" text="Are you sure?" />
+      <Button fx:id="yes_BTN" layoutX="72.0" layoutY="56.0" mnemonicParsing="false" onAction="#yes" prefHeight="25.0" prefWidth="51.0" text="Yes" />
+      <Button fx:id="no_BTN" layoutX="137.0" layoutY="56.0" mnemonicParsing="false" onAction="#no" prefHeight="25.0" prefWidth="51.0" text="No" />
+      <Button fx:id="BTN_save" layoutX="11.0" layoutY="56.0" mnemonicParsing="false" onAction="#saveMaze" text="Save" />
+   </children>
+</AnchorPane>

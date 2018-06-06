@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import View.MazeDisplayer?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.text.Font?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="500" minWidth="500" onKeyPressed="#KeyPressed" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                <MenuItem mnemonicParsing="false" onAction="#createNewMaze" text="New" />
+                <SeparatorMenuItem mnemonicParsing="false" />
+                <MenuItem fx:id="OPTN_SAVE" mnemonicParsing="false" onAction="#saveMaze" text="Save" />
+                <SeparatorMenuItem mnemonicParsing="false" />
+                <MenuItem fx:id="OPTN_LOAD" mnemonicParsing="false" onAction="#loadMaze" text="Load" />
+                <SeparatorMenuItem mnemonicParsing="false" />
+                <MenuItem fx:id="OPTN_CLOSE" mnemonicParsing="false" text="Close" onAction="#exitProgram"/>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#displayProperties" text="Properties" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#About" text="About" />
+                <SeparatorMenuItem mnemonicParsing="false" />
+                <MenuItem mnemonicParsing="false" onAction="#Controls" text="Controls" />
+                <SeparatorMenuItem mnemonicParsing="false" />
+                <MenuItem mnemonicParsing="false" onAction="#Objective" text="Objective" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+    <center>
+        <Label alignment="TOP_LEFT" prefHeight="79.0" prefWidth="260.0" text="WELCOME!" BorderPane.alignment="CENTER" >
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Label>
+        <MazeDisplayer fx:id="mMazeDisplayer" onMouseDragged="#MouseDrag" onScroll="#MouseZoom" height="550" width="550.0" imageForBackground="./src/resources/Images/background2.jpg"
+                       imageForPlayer16X16="./src/resources/Images/torpedo/player16.png" imageForPlayer24X24="./src/resources/Images/torpedo/player24.png"
+                       imageForPlayer32X32="./src/resources/Images/torpedo/player32.png" imageForPlayer64X64="./src/resources/Images/torpedo/player64.png"
+                       imageForWall16X16="./src/resources/Images/seaweed2/wall16.png" imageForWall24X24="./src/resources/Images/seaweed2/wall24.png"
+                       imageForWall32X32="./src/resources/Images/seaweed2/wall32.png" imageForWall64X64="./src/resources/Images/seaweed2/wall64.png"
+                       imageForGoal16X16="./src/resources/Images/submarine2/goal16X16.png" imageForGoal24X24="./src/resources/Images/submarine2/goal24X24.png"
+                       imageForGoal32X32="./src/resources/Images/submarine2/goal32X32.png" imageForGoal64X64="./src/resources/Images/submarine2/goal64X64.png"
+                       winnerImage="./src/resources/Images/explosion.png" BorderPane.alignment="CENTER" />
+    </center>
+   <bottom>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Status:" fx:id="lbl_status" />
+         </children>
+      </HBox>
+   </bottom>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+             <Label fx:id="lbl_mazeRow" text="Maze rows:">
+               <VBox.margin>
+                  <Insets left="3.0"  top="5.0" />
+               </VBox.margin></Label>
+             <TextField fx:id="textField_RowNumber" disable="false" maxWidth="100.0" text="10">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" top="5.0" />
+               </VBox.margin></TextField>
+             <Label fx:id="lbl_mazeColumn" text="Maze columns:">
+               <VBox.margin>
+                  <Insets left="3.0" />
+               </VBox.margin></Label>
+             <TextField fx:id="textField_ColumnsNumber" disable="false" maxWidth="100.0" text="10">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" top="5.0" />
+               </VBox.margin></TextField>
+             <Button fx:id="btn_generateBoard" mnemonicParsing="false" onAction="#createNewMaze" text="Generate">
+               <VBox.margin>
+                  <Insets left="5.0" top="5.0" />
+               </VBox.margin></Button>
+             <Button fx:id="btn_solve" mnemonicParsing="false" onAction="#solveTheMaze" text="Solve">
+                 <VBox.margin>
+                     <Insets left="5.0" top="5.0" />
+                 </VBox.margin></Button>
+             <Button fx:id="btn_mute" mnemonicParsing="false" onAction="#musicMute" text="Mute">
+                 <VBox.margin>
+                     <Insets left="5.0" top="5.0" />
+                 </VBox.margin></Button>
+            <Label fx:id="lbl_textRow" text="Current row:" underline="true">
+               <VBox.margin>
+                  <Insets left="5.0" top="15.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="lbl_currentRow">
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="lbl_textColumn" text="Current column:" underline="true">
+               <VBox.margin>
+                  <Insets left="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="lbl_currentColumn">
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

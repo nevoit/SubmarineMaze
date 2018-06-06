@@ -1,0 +1,68 @@
+.root{
+    -fx-background-image: url("../resources/Images/background.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-text-fill: white;
+}
+
+
+.label{
+    -fx-text-fill: #000000;
+}
+
+Button {
+    -fx-background-color:
+            linear-gradient(#f2f2f2, #d6d6d6),
+            linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+            linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-text-alignment: center;
+}
+
+Button:hover{
+    -fx-background-color:
+            linear-gradient(#b0b0b0, #a5a5a5),
+            linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+            linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#btn_mute:visited
+{
+    -fx-background-color:
+            linear-gradient(#7d7d7d, #858585),
+            linear-gradient(#b8b8b8 0%, #d9d9d9 20%, #aeaeae 100%),
+            linear-gradient(#dddddd 0%, #888888 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+
+#lbl_status, #lbl_textColumn, #lbl_textRow, #lbl_currentRow, #lbl_currentColumn, #lbl_mazeRow, #lbl_mazeColumn
+{
+    -fx-text-fill: white;
+}
+
+MenuBar {
+    -fx-padding: 0 ;
+    -fx-background-color: transparent ;
+    -fx-text-fill: white;
+    -fx-border-color: #063362;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-insets: 0 ;
+    -fx-background-radius: 0 ;
+}
+
+.menu-item{
+    -fx-text-fill: white;
+}
+
+

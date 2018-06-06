@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="pane" prefHeight="330.0" prefWidth="367.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.AboutController">
+   <children>
+      <TextArea editable="false" layoutX="6.0" layoutY="56.0" prefHeight="203.0" prefWidth="356.0" style="-fx-background-color: transparent;" text="Creators: Nevo Itzhak and Tomer Shahar&#10;Advanced Topics in Programming, department of Software and Information Systems Engineering&#10;Copyright 2017 ltd" wrapText="true" AnchorPane.bottomAnchor="82.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="56.0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="21.0" />
+         </font>
+      </TextArea>
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="4.0" prefHeight="117.0" prefWidth="367.0" style="-fx-background-color: transparent;" text="About The Maze " textFill="#f5f2f2" underline="true" wrapText="true" AnchorPane.bottomAnchor="210.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="3.0">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets top="1.0" />
+   </padding>
+</AnchorPane>

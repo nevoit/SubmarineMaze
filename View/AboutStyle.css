@@ -1,0 +1,41 @@
+.root{
+    -fx-background-image: url("../resources/Images/aboutImage.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-font-family: "BN Machine";
+}
+@font-face {
+    src: url("../resources/Fonts/BNMachine.ttf");
+}
+
+.text-area {
+    -fx-font-family: "BN Machine";
+    -fx-background-color: rgba(53,89,119,0.4);
+    -fx-text-fill: #fdfffb;
+    -fx-font-size: 21px;
+    -fx-effect: dropshadow( gaussian , rgba(0, 0, 0, 0.98), 10,0,0,1 );
+    -fx-font-smoothing-type: gray;
+    -fx-font-weight: bold;
+
+    -fx-stroke: black ;
+}
+.label{
+    -fx-font-size: 29px;
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+    -fx-text-fill: white;
+    -fx-font-family: "BN Machine";
+    -fx-effect: dropshadow( gaussian , rgba(0, 0, 0, 0.98), 10,0,0,1 );
+}
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
