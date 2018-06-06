@@ -1,10 +1,10 @@
 package Model.test.test;
 
-import IO.MyCompressorOutputStream;
-import IO.MyDecompressorInputStream;
-import algorithms.mazeGenerators.AMazeGenerator;
-import algorithms.mazeGenerators.Maze;
-import algorithms.mazeGenerators.MyMazeGenerator;
+import Model.IO.MyCompressorOutputStream;
+import Model.IO.MyDecompressorInputStream;
+import Model.algorithms.mazeGenerators.AMazeGenerator;
+import Model.algorithms.mazeGenerators.Maze;
+import Model.algorithms.mazeGenerators.MyMazeGenerator;
 import java.io.*;
 import java.util.Arrays;
 

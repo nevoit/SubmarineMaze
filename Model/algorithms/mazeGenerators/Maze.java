@@ -1,7 +1,7 @@
 package Model.algorithms.mazeGenerators;
 
-import algorithms.search.AState;
-import algorithms.search.MazeState;
+import Model.algorithms.search.AState;
+import Model.algorithms.search.MazeState;
 import sun.awt.Mutex;
 
 import java.io.Serializable;

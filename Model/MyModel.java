@@ -1,11 +1,11 @@
 package Model;
 
-import IO.MyCompressorOutputStream;
-import IO.MyDecompressorInputStream;
-import algorithms.mazeGenerators.*;
-import Server.*;
-import Client.*;
-import algorithms.search.Solution;
+import Model.IO.MyCompressorOutputStream;
+import Model.IO.MyDecompressorInputStream;
+import Model.algorithms.mazeGenerators.*;
+import Model.Server.*;
+import Model.Client.*;
+import Model.algorithms.search.Solution;
 
 import java.io.*;
 import java.net.InetAddress;

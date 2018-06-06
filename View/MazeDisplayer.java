@@ -1,9 +1,9 @@
 package View;
 
-import algorithms.mazeGenerators.Position;
-import algorithms.search.AState;
-import algorithms.search.MazeState;
-import algorithms.search.Solution;
+import Model.algorithms.mazeGenerators.Position;
+import Model.algorithms.search.AState;
+import Model.algorithms.search.MazeState;
+import Model.algorithms.search.Solution;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import javafx.scene.canvas.GraphicsContext;

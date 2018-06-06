@@ -1,8 +1,8 @@
 package Model.Server;
 
-import IO.MyCompressorOutputStream;
-import algorithms.mazeGenerators.AMazeGenerator;
-import algorithms.mazeGenerators.Maze;
+import Model.IO.MyCompressorOutputStream;
+import Model.algorithms.mazeGenerators.AMazeGenerator;
+import Model.algorithms.mazeGenerators.Maze;
 import java.io.*;
 /**
  * Server class

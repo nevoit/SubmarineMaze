@@ -1,7 +1,6 @@
 package Model.algorithms.search;
-
-import algorithms.mazeGenerators.Maze;
-import algorithms.mazeGenerators.Position;
+import Model.algorithms.mazeGenerators.Maze;
+import Model.algorithms.mazeGenerators.Position;
 import java.util.ArrayList;
 
 /**

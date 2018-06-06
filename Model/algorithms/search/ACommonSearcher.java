@@ -1,11 +1,11 @@
 package Model.algorithms.search;
-import algorithms.mazeGenerators.IMazeGenerator;
-import algorithms.mazeGenerators.Maze;
-import algorithms.mazeGenerators.MyMazeGenerator;
-import algorithms.mazeGenerators.SimpleMazeGenerator;
+import Model.algorithms.mazeGenerators.IMazeGenerator;
+import Model.algorithms.mazeGenerators.Maze;
+import Model.algorithms.mazeGenerators.MyMazeGenerator;
+import Model.algorithms.mazeGenerators.SimpleMazeGenerator;
 import java.util.ArrayList;
 import java.util.HashSet;
-import static algorithms.mazeGenerators.AMazeGenerator.rangeRandom;
+import static Model.algorithms.mazeGenerators.AMazeGenerator.rangeRandom;
 
 /**
  * An abstract class of search algorithms

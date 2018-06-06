@@ -1,12 +1,12 @@
 package Model.Server;
 
-import algorithms.mazeGenerators.AMazeGenerator;
-import algorithms.mazeGenerators.MyMazeGenerator;
-import algorithms.mazeGenerators.SimpleMazeGenerator;
-import algorithms.search.BestFirstSearch;
-import algorithms.search.BreadthFirstSearch;
-import algorithms.search.DepthFirstSearch;
-import algorithms.search.ISearchingAlgorithm;
+import Model.algorithms.mazeGenerators.AMazeGenerator;
+import Model.algorithms.mazeGenerators.MyMazeGenerator;
+import Model.algorithms.mazeGenerators.SimpleMazeGenerator;
+import Model.algorithms.search.BestFirstSearch;
+import Model.algorithms.search.BreadthFirstSearch;
+import Model.algorithms.search.DepthFirstSearch;
+import Model.algorithms.search.ISearchingAlgorithm;
 
 import java.io.*;
 import java.util.Properties;

@@ -1,7 +1,7 @@
 package ViewModel;
 
 import Model.IModel;
-import algorithms.search.Solution;
+import Model.algorithms.search.Solution;
 import javafx.application.Platform;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;

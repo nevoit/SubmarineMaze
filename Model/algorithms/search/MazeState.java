@@ -1,6 +1,6 @@
 package Model.algorithms.search;
 
-import algorithms.mazeGenerators.Position;
+import Model.algorithms.mazeGenerators.Position;
 /**
  * State for maze
  *

@@ -1,12 +1,12 @@
 package Model.test.test;
 
-import IO.MyDecompressorInputStream;
-import Server.*;
-import Client.*;
-import algorithms.mazeGenerators.Maze;
-import algorithms.mazeGenerators.MyMazeGenerator;
-import algorithms.search.AState;
-import algorithms.search.Solution;
+import Model.IO.MyDecompressorInputStream;
+import Model.Server.*;
+import Model.Client.*;
+import Model.algorithms.mazeGenerators.Maze;
+import Model.algorithms.mazeGenerators.MyMazeGenerator;
+import Model.algorithms.search.AState;
+import Model.algorithms.search.Solution;
 import java.io.*;
 import java.net.InetAddress;
 import java.net.UnknownHostException;

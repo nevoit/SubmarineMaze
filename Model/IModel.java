@@ -1,7 +1,7 @@
 package Model;
 
-import algorithms.mazeGenerators.Position;
-import algorithms.search.Solution;
+import Model.algorithms.mazeGenerators.Position;
+import Model.algorithms.search.Solution;
 
 /**
  * Interface for the model inside the MVVM architecture

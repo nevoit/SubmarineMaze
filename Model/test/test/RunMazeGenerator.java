@@ -1,6 +1,6 @@
 package Model.test.test;
 
-import algorithms.mazeGenerators.*;
+import Model.algorithms.mazeGenerators.*;
 
 /**
  * Created by Aviadjo on 3/22/2017.

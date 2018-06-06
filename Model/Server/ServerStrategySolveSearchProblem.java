@@ -1,8 +1,8 @@
 package Model.Server;
 
-import algorithms.mazeGenerators.AMazeGenerator;
-import algorithms.mazeGenerators.Maze;
-import algorithms.search.*;
+import Model.algorithms.mazeGenerators.AMazeGenerator;
+import Model.algorithms.mazeGenerators.Maze;
+import Model.algorithms.search.*;
 
 import java.io.*;
 

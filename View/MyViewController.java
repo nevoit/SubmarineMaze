@@ -1,7 +1,7 @@
 package View;
 
 import ViewModel.MyViewModel;
-import algorithms.search.Solution;
+import Model.algorithms.search.Solution;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

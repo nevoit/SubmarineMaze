@@ -1,9 +1,9 @@
 package Model.test.test;
 
-import algorithms.mazeGenerators.IMazeGenerator;
-import algorithms.mazeGenerators.Maze;
-import algorithms.mazeGenerators.MyMazeGenerator;
-import algorithms.search.*;
+import Model.algorithms.mazeGenerators.IMazeGenerator;
+import Model.algorithms.mazeGenerators.Maze;
+import Model.algorithms.mazeGenerators.MyMazeGenerator;
+import Model.algorithms.search.*;
 
 import java.util.ArrayList;
 
