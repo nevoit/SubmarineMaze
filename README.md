@@ -15,6 +15,12 @@ We implemented in Java (8) a maze game, while the GUI was written with XML in Ja
 
 ![alt text](https://github.com/nevoit/SubmarineMaze/blob/master/resources/Images/gui2.PNG)
 
+
+## Authors
+* **Tomer Shahar** - [Tomer Shahar](https://github.com/Tomer-Shahar)
+* **Nevo Itzhak** - [Nevo Itzhak](https://github.com/nevoit)
+
+
 Licence:
 =============
 
